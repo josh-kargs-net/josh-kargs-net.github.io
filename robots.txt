@@ -1,0 +1,4 @@
+# /robots.txt file for http://josh.kargs.net/
+
+User-agent: *
+Disallow:
