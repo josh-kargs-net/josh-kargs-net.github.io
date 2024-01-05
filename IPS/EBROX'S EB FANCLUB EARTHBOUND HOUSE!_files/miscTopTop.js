@@ -1,0 +1,1 @@
+document.write ('<iframe src="http://www.fortunecity.com/banners/adsense.468us.html" width="468" height="350" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="border: 1px solid #736357"></iframe><br>');
