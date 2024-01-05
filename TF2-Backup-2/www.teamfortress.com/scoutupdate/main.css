@@ -1,0 +1,746 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#bbaca5;
+	/*background-color:#3f2c28; */
+	padding:0;
+	margin:0;
+}
+
+#mainContainer {
+	background-image:url(images/main_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#bbaca5;
+	padding:0;
+	margin:0;
+}
+
+#pageContainer_home {
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	padding:0;
+	margin:0;
+	line-height:18px;	
+	position:relative;
+}
+
+#pageContainer {
+	width:820px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	padding:0;
+	margin:0;
+	line-height:18px;
+	position:relative;
+}
+
+#homeContainer {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/bg_home_day6.jpg);
+	background-position:center top;
+}
+
+#homeContainer_de {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/german/bg_home_day7.jpg);
+	background-position:center top;
+}
+
+#homeContainer_fr {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/french/bg_home_day7.jpg);
+	background-position:center top;
+}
+
+#homeContainer_it {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/italian/bg_home_day7.jpg);
+	background-position:center top;
+}
+
+#homeContainer_es {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/spanish/bg_home_day7.jpg);
+	background-position:center top;
+}
+
+#homeContainer_ru {
+	width:820px;
+	position:relative;
+	height:708px;
+	background-image:url(images/russian/bg_home_day7.jpg);
+	background-position:center top;
+}
+
+
+#home {
+	background-image:url(images/bg_home_day6.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+
+}
+
+#home_fr {
+	background-image:url(images/french/bg_home_day7.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+}
+
+#home_de {
+	background-image:url(images/german/bg_home_day7.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+}
+
+#home_es {
+	background-image:url(images/spanish/bg_home_day7.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+}
+
+#home_it {
+	background-image:url(images/italian/bg_home_day7.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+}
+
+#home_ru {
+	background-image:url(images/russian/bg_home_day7.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:708px;
+	margin:0;
+	padding:0;
+}
+
+#nav1 {
+	position:absolute;
+	top:430px;
+	left:48px;
+}
+
+#nav2 {
+	position:absolute;
+	top:462px;
+	left:48px;
+}
+
+#nav3 {
+	position:absolute;
+	top:494px;
+	left:48px;
+}
+
+#nav4 {
+	position:absolute;
+	top:526px;
+	left:48px;
+}
+
+#nav5 {
+	position:absolute;
+	top:558px;
+	left:48px;
+}
+
+#nav6 {
+	position:absolute;
+	top:590px;
+	left:48px;
+}
+
+#footerbox {
+	padding-left:0px;
+}
+
+#footer {
+	background-image:url(images/footerBG.jpg);
+	height:60px;
+	width:820px;
+}
+
+#footerLogo {
+	padding-left:20px;
+	width:111px;
+	float:left;
+}
+
+#copyright {
+	float:right;
+	color:#a3a3a3;
+	font-size:10px;
+	text-align:left;
+	width:660px;
+	padding-right:20px;
+	padding-top:8px;
+	line-height:normal;
+}
+
+.footerShadowBottom {
+	height:60px;
+}
+
+/* Language Select */
+#languageSelect {
+	position:absolute;
+	top:664px;
+	left:46px;
+	color:#565656;
+}
+
+#languageSelect a {
+	color:#cccccc;
+	text-decoration:none;
+}
+
+#languageSelect a:hover {
+	color:#FFFFFF;
+}
+
+/* 01 Sandman */
+
+#sandman_background {
+	background-image:url(images/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_background_fr {
+	background-image:url(images/french/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_background_de {
+	background-image:url(images/german/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_background_es {
+	background-image:url(images/spanish/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_background_it {
+	background-image:url(images/italian/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_background_ru {
+	background-image:url(images/russian/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#sandman_content {
+	background-image:url(images/01_bg_expand.gif);
+	background-repeat:repeat-y;
+	width:820px;
+	position:relative;
+}
+
+#sandman_desc {
+	padding-top:362px;
+	padding-left:290px;
+	padding-bottom:24px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	line-height:18px;
+	width:500px;
+}
+
+#sandman_a {
+	padding-left:36px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	line-height:18px;
+	width:240px;
+}
+
+#sandman_b {
+	float:right;
+	padding-right:14px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	line-height:18px;
+	width:240px;
+}
+
+#sandman_c {
+	float:right;
+	padding-right:36px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	line-height:18px;
+	width:240px;
+}
+
+
+/* 02 Watchtower + Junction */
+
+#Cmaps_top {
+	background-image:url(images/02_top.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+}
+
+#Cmaps_bottom {
+	background-image:url(images/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:574px;
+}
+
+#Cmaps_content {
+	background-image:url(images/02_bg_expand.gif);
+	background-repeat:repeat-y;
+	width:820px;
+	position:relative;
+}
+
+#watchtower_screens {
+	padding-left:36px;
+	padding-top:296px;
+	width:240px;
+}
+
+#junction_screens {
+	padding-left:36px;
+	padding-top:8px;
+	width:240px;
+}
+
+.byline {
+	padding-bottom:8px;
+}
+
+#watchtower_desc {
+	padding-right:36px;
+	float:right;
+	padding-left:10px;
+	padding-top:342px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#bbb7ae;
+	line-height:18px;
+	width:494px;
+}
+
+#junction_desc {
+	padding-right:36px;
+	float:right;
+	padding-top:56px;
+	padding-bottom:24px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#bbb7ae;
+	line-height:18px;
+	width:494px;
+}
+
+#Cmaps_btn {
+	position:absolute;
+	right:24px;
+	bottom:0px;
+}
+
+
+/* 03 Energy Drink */
+
+#energydrink_bg {
+	background-image:url(images/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_bg_fr {
+	background-image:url(images/french/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_bg_de {
+	background-image:url(images/german/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_bg_es {
+	background-image:url(images/spanish/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_bg_it {
+	background-image:url(images/italian/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_bg_ru {
+	background-image:url(images/russian/03_background.jpg);
+	background-repeat:no-repeat;
+	height:782px;
+	width:820px;
+	background-position:bottom;
+}
+
+#energydrink_desc {
+	padding-left:36px;
+	padding-top:414px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#cec9c0;
+	line-height:18px;
+	width:500px;
+}
+
+#note {
+	padding-left:36px;
+	padding-top:14px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#6a6965;
+	width:490px;
+	line-height:normal;
+}
+
+#note2 {
+	padding-left:36px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#6a6965;
+	width:490px;
+	line-height:normal;
+}
+
+#achievements {
+	background-image:url(images/03_achievement_bg.gif);
+	background-repeat:repeat-y;
+	width:820px;
+	text-align:left;
+}
+
+#achievementsLeft {
+	padding-left:26px;
+	width:386px;
+}
+
+#achievementsRight {
+	float:right;
+	width:400px;
+}
+
+.achievementBlock {
+	height:64px;
+	width:370px;
+	padding-bottom:10px;
+}
+
+.desc {
+	float:right;
+	width:300px;
+	text-align:left;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#achievementDL {
+	height:36px;
+	background-image:url(images/03_achievement_dl_bg.gif)	
+}
+
+#achievementDL a {
+	font-weight:bold;
+	color:#000000;
+}
+
+#achievementDL a:hover {
+	color:#FFFFFF;
+}
+
+.achievementsEnd {
+	margin:0;
+	padding:0px;
+}
+
+#DLLeft {
+	padding-top:2px;
+	width:236px;
+	text-align:right;
+}
+
+#DLRight {
+	padding-top:10px;
+	width:572px;
+	float:right;
+	text-align:left;
+}
+
+/* 04 Egypt*/
+
+#Cmaps2_top {
+	background-image:url(images/04_top.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:574px;
+}
+
+#Cmaps2_bottom {
+	background-image:url(images/04_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:195px;
+}
+
+#Cmaps2_bottom_ru {
+	background-image:url(images/russian/04_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:195px;
+}
+
+
+#Cmaps2_content {
+	background-image:url(images/04_bg_expand.gif);
+	background-repeat:repeat-y;
+	width:820px;
+	position:relative;
+}
+
+#egypt_screens {
+	padding-left:36px;
+	padding-top:390px;
+	width:240px;
+}
+
+#egypt_desc {
+	padding-right:36px;
+	float:right;
+	padding-left:10px;
+	padding-top:432px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ebebea;
+	line-height:18px;
+	width:494px;
+}
+
+#fastlane_desc {
+	padding-top:56px;
+	padding-left:36px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#c3ae9e;
+	line-height:18px;
+	width:294px;
+}
+
+/* 05 Force-A-Nature*/
+
+#force_content {
+	background-image:url(images/bg_expand.gif);
+	background-repeat:repeat-y;
+	width:820px;
+	position:relative;
+}
+
+#force_bottom {
+	background-image:url(images/05_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:510px;
+}
+
+#force_bottom_ru {
+	background-image:url(images/russian/05_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:510px;
+}
+
+
+#t-shirt_btn {
+	position:absolute;
+	left:92px;
+	top:1721px;
+}
+
+#pollSection{
+	padding-top:8px;
+	padding-left:140px;
+	color:#d4d4d4;
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	width:560px;
+	
+}
+
+#decide {
+	padding-top:6px;
+}
+
+.dark {
+	color:#7e7e7e;
+}
+
+a.standardLink {
+	color:#faeac9;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+}
+
+.standardLink:hover {
+	color:#FFFFFF;
+}
+
+/* Sale */
+
+#saleSection {
+	background-color:#3f2c28;
+}
+
+#salePlate {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+#salePlate_fr {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/french/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+
+#salePlate_de {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/german/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+#salePlate_es {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/spanish/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+#salePlate_it {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/italian/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+#salePlate_ru {
+	width:820px;
+	background-color:#3f2c28;
+	background-image:url(images/russian/50_header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:170px;
+	text-align:left;
+}
+
+
+#getBtn {
+	padding-left:30px;
+	padding-top:90px;
+	text-align:left;
+}
+
+
+
+
+
+
+
