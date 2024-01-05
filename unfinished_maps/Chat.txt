@@ -1,0 +1,139 @@
+Josh: How long was Ivan the Space Biker a possible gordon?
+Guthers: lol!  not very long!
+Guthers: i think he was just a quick prototype.
+Josh: hm
+Josh: He sure did look interesting
+Guthers: it was created by harry teasley, one of the artists (who worked on civilization, bit of trivia for you)
+
+Josh: What ever happened to HL1: Uplink levels? Were they ever apart of the original game?
+Guthers: no, uplink was created over a couple week span by myself and kelly bailey.
+Josh: Wow
+Josh: Really?
+Guthers: Yeah.  The one with the satellite dish you have to position, right?
+Josh: yes
+Josh: You did a great job!
+Guthers: yeah. you wouldn't believe what a pain it was to get that dish to rotate.
+Josh: Really?
+Guthers: we didn't get any code support for uplink.
+Guthers: we just had to get it to work with what we had in the HL1 code base..
+Josh: wow
+Guthers: and we didn't have much to support a rotating dish.
+Guthers: wow indeed!  say, you're my favorite chat bot.
+
+Guthers: Next time you talk to Ted, ask him why all his monsters are gross looking.
+Josh: Sure
+Guthers: welp, nice chatting with you.  I have to go kill more zombies now.
+
+
+Captain Chaos: I've been here for 12 years, worked on lots
+Josh: Wow
+Josh: Thats almost as long as long as guthers
+Josh: I assume you worked on HL1?
+Captain Chaos: I was hired just before Guthers
+
+Josh: You worked on some Final Doom, didn't you?
+Captain Chaos: yes, my brother and I did the Plutonia Experiment
+Josh: Oh wow
+
+Josh: Is it true that theres a giant gordon statue?
+Captain Chaos: yes, several in fact
+Josh: Woah...
+Captain Chaos: not that giant, six feet
+Josh: Life sized?
+Josh: Wow
+Captain Chaos: yup!
+
+
+Koulikov: yes I did work at NOA from 92-96
+Josh: Wow...
+Josh: Thanks for replying
+Josh: So you do level design?
+Josh: What games have you worked on?
+Koulikov: I do operations tuff, like Steamworks and producing Gold Masters
+Josh: Wow
+Koulikov: stuff
+Josh: Thats neat.
+Josh: So when you say "Gold Masters" you mean the final copies that go to the game production facility?
+Koulikov: yep
+Josh: Wow, are they really golden?
+Koulikov: no, but when a game is 'finished' they say it is 'Gold'
+Josh: Oh I see
+Josh: Like how Goldsource was named after the copy of the HL1 Source code at the time, and Source was the temporary name for when the HL2 Engine was in development (I mean folder system wise).
+Koulikov: well I'm not sure where the term originiated, but I think mainly it is a way to differentiate a product from being in development (Alpha, Beta, etc.) to being on its way to customers
+Josh: Oh
+Josh: Interesting.
+Josh: Do you know anything about the 1997 HL1 Demo "Uplink"?
+Koulikov: I remember playing it :)
+Josh: The other day i was talking with guthers about it.
+Josh: He and Baily coded it.
+Josh: *kelly bailey
+Josh: Sorry about that.
+Koulikov: well nice chattng wth you, I'm going to eat lunch now
+Josh: Thank you for your time.
+Josh: Have a nice lunch!
+Koulikov: thnx
+Koulikov is now Offline.
+
+
+Josh: look what I made
+Josh: http://img212.imageshack.us/img212/9858/sandsofthedeadpb6.png
+DRiller: Needs more mummies
+Josh: Sure...
+Josh: Cool Idea though?
+Josh: I'll start working on it when the L4D SDK is released
+DRiller: would be more evocative if it had some sort of architecture theme tied into the desert
+Josh: Egyptian?
+DRiller: some form of desert dweller -- not necessarily that
+DRiller: ruins maybe
+Josh: hmmm
+DRiller: or abandoned oil gear
+Josh: hmmm
+DRiller: flaming derriks maybe
+DRiller: or... hmm
+Josh: Cool.
+
+
+Josh: Hows valve?
+Turd Furgeson: great, as always. taking a few days off for the holiday
+Josh: Cool.
+Josh: Hey, I have a quick question about portal.
+Turd Furgeson: k
+Josh: I saw the Sparta textures in the GCF
+Josh: Whats up with that?
+Josh: theres no model and its just a VTF.
+Turd Furgeson: there's usually all kinds of stuff left behind that we don't clear out before ship.  Things that were thought about but never made it in or didn't fit into what it finally became
+Josh: Cool.
+Josh: Also, I've seen the TF2 Box in L4D, Jolly good show.
+Josh: Nice way to keep the fans at bay.
+Turd Furgeson: lol
+Josh: Wondering about the mysterious "Collect all ten!"
+Josh: But anyway, it seems the l4d release went well
+Turd Furgeson: it did, we're really, really pleased with how it's going.
+Josh: thats neat.
+Josh: I know the road to Half-life 2 was full of stumbles
+Josh: Hey, did you ever catch that german hacker?
+Turd Furgeson: can't talk about it.... ;)
+Josh: ;D
+Josh: Cool
+Turd Furgeson: ok, gonna play some fallout 3
+Josh: Yay
+Josh: Have fun on the capitol wasteland
+Josh: Find your father!
+Turd Furgeson: will do, chat soon
+Turd Furgeson: lol
+
+
+Captain Chaos: we're snowed in here
+Captain Chaos: I'm sure you are too!
+Captain Chaos: are you still in Kirkland?
+Josh is now playing Counter-Strike: Source. Click here to join.
+Josh: Nope
+Josh: But anyway, I had a question
+Josh: was anything out of the "Get your free TVs!" Retained?
+Josh: left in final, i mean
+Josh: Anyway, hows it going up in washington?
+Captain Chaos is now Offline.
+Lost connection to Steam, will rejoin chat automatically when connection regained.
+Connected again and rejoined chat.
+Lost connection to Steam, will rejoin chat automatically when connection regained.
+Connected again and rejoined chat.
