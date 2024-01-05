@@ -1,0 +1,66 @@
+if(typeof showStitial == 'undefined' || !showStitial){
+    if(typeof adString == 'undefined') var adString = "";
+    
+    var tileDate = new Date();
+    var tile = tileDate.getTime();
+    var isLinkedAdGroup1 = false;
+    var isForSiteNeedingTheSameTile = false;
+    if(typeof fixedTile1 == 'undefined' || fixedTile1 == ''){
+        var fixedTileDate1 = new Date();
+        var fixedTile1 = fixedTileDate1.getTime() + Math.round(Math.random() * 1000);        
+    }
+    
+isLinkedAdGroup1 = true;
+
+    if(isLinkedAdGroup1) { tile = fixedTile1; }
+    
+    
+isForSiteNeedingTheSameTile = true;
+
+    if(isForSiteNeedingTheSameTile) { tile = fixedTile1; }
+
+    var isDupAd = false;    
+    <!--/*dupAdCheck*/-->
+    <!--/*adStringAppend*/-->
+    if(!isDupAd){
+        if(true){
+            document.write("<"+"script type='text/javascript' src='http://de.ign.com/js.ng/platform_id=20113&hosted_id=5130&reggender=3&network=fim&regage=0&subdomain=nindb.classicgaming.gamespy.com&pagetype=pnh_content&site=planetnintendo&dechannel=planet&size=728x90&server=APPS83.in.ign.com&regspeed=-1&PageId=1189048216809&random=1189048216809&property=gamespy&tile="+tile+"'>");
+            document.write("<"+"/script>");
+        }
+
+    }else if(isDupAd){
+	
+    }
+}
+
+
+if((typeof ataxscript == 'undefined' || ataxscript.length == 0) &&
+   (typeof ataximg == 'undefined' || ataximg.length == 0) &&
+   (typeof showStitial == 'undefined' || !showStitial) &&
+   (typeof forwardedByStitial == 'undefined' || !forwardedByStitial))
+{
+    var now 	 = new Date();
+    var random 	 = now.getTime();
+    var ref 	 = (document.referrer)?'&r='+escape(document.referrer):'';
+        ref      = ref.split('/').join('%2F');
+        ref      = ref.split('.').join('%2E');
+        ref      = ref.split('%').join('$');
+
+    var ataxscript = "<"+"script src='http://atax.gamespy.com/platform_id=20113&hosted_id=5130&reggender=3&network=fim&src=wrapper&regage=0&subdomain=nindb.classicgaming.gamespy.com&pagetype=pnh_content&site=planetnintendo&dechannel=planet&size=1x1&server=APPS83.in.ign.com&regspeed=-1&name=ATAtracker&PageId=1189048216809&random=1189048216809&ct=js" + ref + "&property=gamespy&'" + ">"+"<" + "/script" + ">";
+    document.write(ataxscript);
+    // ubt pixel as transparent GIF.  
+    if (ataxscript.indexOf("atax.ign.com") >= 0 && false)
+      {
+      // change to GIF form
+      var ubtscript = ataxscript.split('atax').join('ubt');
+      var tokens = ubtscript.split("'");
+          tokens = tokens[1].split('/');
+          tokens[3] = tokens[3].split('?').join('&');
+          ubtscript = '<img src ="http://ubt.ign.com?'+tokens[3]+'" height=1 width=1 style="position: absolute; visibility: hidden;">';
+          ubtscript = ubtscript.split('ct=js').join('ct=gif');
+      document.write(ubtscript);
+      }
+    <!--/*GameSpyTextAdSrc*/-->
+}
+
+

@@ -1,0 +1,30 @@
+if((typeof ataxscript == 'undefined' || ataxscript.length == 0) &&
+   (typeof ataximg == 'undefined' || ataximg.length == 0) &&
+   (typeof showStitial == 'undefined' || !showStitial) &&
+   (typeof forwardedByStitial == 'undefined' || !forwardedByStitial))
+{
+    var now 	 = new Date();
+    var random 	 = now.getTime();
+    var ref 	 = (document.referrer)?'&r='+escape(document.referrer):'';
+        ref      = ref.split('/').join('%2F');
+        ref      = ref.split('.').join('%2E');
+        ref      = ref.split('%').join('$');
+
+    var ataxscript = "<"+"script src='http://atax.gamespy.com/platform_id=20113&hosted_id=5130&reggender=3&network=fim&src=wrapper&regage=0&subdomain=nindb.classicgaming.gamespy.com&pagetype=pnh_content&site=planetnintendo&dechannel=planet&size=1x1&server=APPS83.in.ign.com&regspeed=-1&name=ATAtracker&PageId=1189048216684&random=1189048216684&ct=js" + ref + "&property=gamespy&'" + ">"+"<" + "/script" + ">";
+    document.write(ataxscript);
+    // ubt pixel as transparent GIF.  
+    if (ataxscript.indexOf("atax.ign.com") >= 0 && false)
+      {
+      // change to GIF form
+      var ubtscript = ataxscript.split('atax').join('ubt');
+      var tokens = ubtscript.split("'");
+          tokens = tokens[1].split('/');
+          tokens[3] = tokens[3].split('?').join('&');
+          ubtscript = '<img src ="http://ubt.ign.com?'+tokens[3]+'" height=1 width=1 style="position: absolute; visibility: hidden;">';
+          ubtscript = ubtscript.split('ct=js').join('ct=gif');
+      document.write(ubtscript);
+      }
+    <!--/*GameSpyTextAdSrc*/-->
+}
+
+

@@ -1,0 +1,221 @@
+/* Color selection: #FFF #000 #EEE #CCC #09F */
+
+
+/* MAIN LAYOUT */
+
+body {
+	background-color: #09F;
+	margin: 0px; padding: 0px;
+	}
+
+div.container {
+	width: 728px;
+	margin: 0px auto 0px auto; padding: 0px; border: 0px;
+	background-color: #FFF;
+	}
+
+div.banner {
+	width: 728px; height: 90px;
+	margin: 0px; padding: 0px; border: 0px;
+	text-align: center;
+	}
+
+div.title {
+	width: 728px; height: 130px;
+	margin: 0px; padding: 0px; border: 0px;
+	}
+
+div.menu {
+	background-color: #EEE;
+	width: 155px;
+	margin: 0px; border: 0px;
+	padding: 10px 0px 0px 0px; 
+	float: right;
+	}
+div.menu p {
+	margin: 0px; border: 0px;
+	padding: 7px 15px;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	}
+div.menu h1 {
+	margin: 0px; border: 0px;
+	padding: 7px 5px;
+	font-size: 14px;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+	}
+
+div.content {
+	width: 560px;
+	float: left;
+	margin-bottom: 20px;
+	}
+div.content h1 {margin-left: 20px; margin-right: 20px}
+div.content p {margin-left: 20px; margin-right: 20px}
+div.content h3 {margin-left: 20px; margin-right: 20px}
+div.content h2 {padding-left: 20px;}
+
+div.footer {
+	background-color: #EEE;
+	clear: both;
+	text-align: center;
+	margin: 0px; padding: 0px; border: 0px;
+	}
+
+/* TABLES */
+
+table {
+	margin-left: 20px; margin-right: 20px;
+	padding: 0px; border: none;}
+table th {
+	background-color: #CCC;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	font-weight: bold;
+	text-align: left;
+	padding: 2px;
+	margin: 0px;
+	}
+table td {
+	background-color: #EEE;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	text-align: left;
+	vertical-align: top;
+	padding: 2px;
+	margin: 0px;
+	}
+
+/* NAV TABLE */
+
+table.nav {
+	width: 267px;
+	background-color: #FFF;
+	border: 2px solid #09F;
+	margin: 20px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+	color: #000;
+	}
+
+/* INFO BOX */
+
+div.ss {
+	width: 267px;
+	background-color: #09F;
+	border: 2px solid #09F;
+	margin-right: 20px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding: 0px;
+	float: right;
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+table.info {width: 220px;}
+table.info th {width: 70px;}
+table.info td {width: 120px;}
+table.info td.links, table.info th.links {width: 220px;}
+table.info td.links ul {margin-left: 15px;}
+
+/* RELEASES TABLE */
+
+table.releases th {width: 20px; text-align: center;}
+table.releases td {border-bottom: 1px solid #FFF;}
+table.releases td.date {width: 70px; text-align: center;}
+table.releases td.serial {width: 100px; text-align: center; font-size: smaller;}
+table.releases td.boxart {width: 70px; text-align: center;}
+
+table.gamelist .flag {width: 20px; text-align: center; vertical-align: middle;}
+table.gamelist .dev {width: 120px;}
+table.gamelist .name {font-weight: bold;}
+table.gamelist .date {width: 70px; text-align: center;}
+table.gamelist .sys {width: 100px; text-align: center;}
+
+/* REGIONAL LISTS WITH BOXART */
+
+th.gamebox {width: 100px; vertical-align: middle; text-align: center;}
+
+/* CONTENT */
+
+img {border: 0px;}
+
+div.new {
+	margin-top: 15px;
+	text-align: center;
+	}
+
+h1 {
+	margin: 0px; border: 0px;
+	padding: 15px 0px 0px 0px;
+	font-size: 24px;
+	color: #09F;
+	text-align: left;
+	}
+h1 span {
+	font-size: 14px;
+	}
+
+p.topnav {
+	text-align: left;
+	}
+
+h2 {
+	height: 16px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #09F;
+	background-image: url(https://josh.kargs.net/fdcpii/HTML/btc_files/layout/h2-end.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	padding: 5px;
+	clear: both;
+	}
+	
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #09F;
+	border-bottom: 1px solid #09F;
+	clear: both;
+	}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000;}
+
+a:link {text-decoration: none; color: #009;}
+a:visited {text-decoration: none; color: #009;}
+a:hover {text-decoration: underline; color: #009;}
+
+div.menu a:link {}
+div.menu a:visited {}
+div.menu a:hover {}
+
+td.subtitle {background-color: #CCC;}
+td.section {background-color: #09F;}
+td.menu {background-color: #09F;}
+td.title {background-color: #09F;}
+
+.screenshots {
+	text-align: center;
+	margin: 10px 20px; padding: 2px;
+	border: 1px solid #39F;
+	background-color: #9CF;
+	font-size: smaller; color: #09F; font-weight: bold;
+	}
+
+div.sprite {
+	width: 102px;
+	background-color: #9CF;
+	float: right;
+	margin: 0px 20px 20px 5px;
+	text-align: center;
+	border: 1px solid #39F;}
